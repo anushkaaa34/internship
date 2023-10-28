@@ -1,0 +1,337 @@
+
+.header-top{
+    width: 100%;
+    height:60px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border: 1.5px solid #4e4d4d;
+}
+
+
+.app-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    float: left;
+    padding: 10px;
+    margin-left:0px;
+    
+}
+.text{
+    font-size:25px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+    height:50px;
+    width:50px;
+    flex-basis: 40%;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+     /* height: 3rem; */
+    padding:1.5rem;
+    width: 55%;
+    float: left;
+    /* padding: 20px; */
+   
+    
+}
+
+#d1{
+    font-size: medium;
+    color: rgba(240, 248, 255, 0.685);
+}
+#d1:hover{
+    color:#fff;
+    cursor: pointer;
+}
+.d9{
+    margin-top: -6px;
+}
+
+.trade{
+    background: #3eb489;
+    border-radius: 4px;
+    /* font-size: 1.4rem; */
+    height:30px;
+    width:65px;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff!important;
+    padding-left: 1.0rem;
+    /* padding-right: 1.6rem; */
+    box-sizing: border-box;
+    position: center;
+    /* min-height: 3.6rem; */
+    display: inline-flex!important;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+}
+.trade:hover{
+    background-color: #0a5e3f;
+}
+button{
+    background-color: black;
+}
+.logo3{
+    height:40px;
+    width:120px;
+    background-color: black;
+    margin-top:-18px;
+    margin-left:-40px;
+}
+.logo1:hover{
+    background-color: #4e4d4d;
+}
+.logo1{
+    width: 8%;
+    float: left;
+    margin-top:15px;
+    padding: 10px;
+    height:10px;
+    background-color: black;
+}
+.logo2{
+    width: 5%;
+    float: left;
+    margin-top:15px;
+    padding: 10px;
+    height:10px;
+    background-color: black;
+}
+.network-dropdown {
+    display: inline-flex;
+    margin-top:-10px;
+    margin-left:-40px;
+}
+
+.network-dropdown:hover{
+    background-color: #4e4d4d;
+}
+.home{
+    min-height: 100vh;
+    padding-bottom: 24.65rem;
+}
+
+.top-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 6.2rem;
+    position: relative;
+    padding-bottom: 1.4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    margin-top: -6.2rem;
+}
+.home-default-container{
+    position: relative;
+
+    width: 100%;
+    padding-top: 4.2rem;
+    padding-left:6rem;
+    letter-spacing: .5px;
+    
+}
+.home-default-container2{
+    max-width: 126.4rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+    
+}
+.home-title{
+    font-size: 3.0rem;
+    font-family: relative sans-serif;
+    line-height: 6.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0;
+    color: #fff;
+    line-height: 59px;
+}
+.home-description{
+    font-size: 1.2rem;
+    line-height: 24px;
+    max-width: 44.4rem;
+    color: #cecece;
+    margin-bottom: 2.8rem;
+}
+
+.button{
+    background: #3eb489;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff!important;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 2.6rem;
+    display: inline-flex!important;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.button:hover{
+    background-color: #0a5e3f;
+}
+
+
+.default-container2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 3.2rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+}
+
+.content1{
+    /* box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,.2); */
+    border: 1px solid hsla(0,0%,100%,.0784313725490196);
+    border-radius: 4px;
+    max-width: 22rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    padding-left: 1.5rem;
+    margin: 1.6rem 0;
+    backdrop-filter: blur(4px);
+}
+.img1{
+    margin-left: 0.55rem;
+    margin-right: 3.95rem;
+}
+.descrip1{
+    color: #cecece;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+}
+
+.value1{
+    font-family: "RelativeNumber";
+    color: #fff;
+    font-size: 1.9rem;
+    line-height: 3.9rem;
+    letter-spacing: 0;
+}
+
+.header1{
+    display: flex;
+}
+.Home-benefit{
+    border-top: 1px solid #4d4d4e;
+}
+
+.home-benefit{
+    /* padding: 2.4rem; */
+}
+
+.home-icon{
+    display: flex;
+    align-items: center;
+    padding: 0 0 1.5rem;
+    color: #cecece;
+    font-size: 1.12rem;
+}
+.home-benefit-title{
+    font-size: 1.2rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    margin-left: 1.5rem;
+}
+
+.home-descrip{
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    max-width: 19rem;
+    color: #cecece;
+    letter-spacing: 0;
+}
+
+.Footer-wrapper {
+    text-align: center;
+    padding-top: 4rem;
+    background: #151515;
+    width: 100vw;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+    height: 20rem;
+    bottom: 0;
+    border-top: 1px solid #4d4d4e;
+}
+
+.Footer-logo {
+    margin-bottom: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "Relative",sans-serif;
+    letter-spacing: .5px
+}
+
+.Footer-social-link-block {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 2.4rem;
+    box-sizing: border-box;
+    font-family: "Relative",sans-serif;
+    letter-spacing: .5px
+}
+
+a.App-social-link {
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    font-size: 2.635rem;
+    color: #fff;
+    opacity: .8;
+}
+.Footer-links {
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Relative",sans-serif;
+    letter-spacing: .5px
+}
+
+.Footer-link {
+    color: #e6e6ea;
+    font-size: 1.5rem;
+    line-height: 1.85rem;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
